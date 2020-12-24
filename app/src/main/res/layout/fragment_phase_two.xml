@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juniper.npitracker.fragments.PhaseTwoFragment">
+
+    <SearchView
+        android:id="@+id/phasetwo_searchview"
+        android:closeIcon="@color/transparent"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="false"
+        android:layout_height="wrap_content">
+
+    </SearchView>
+    <ListView
+        android:layout_below="@+id/phasetwo_searchview"
+        android:id="@+id/phase_two_listview"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/phase2save"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <Button
+
+        android:id="@+id/phase2save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/saveprofile"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

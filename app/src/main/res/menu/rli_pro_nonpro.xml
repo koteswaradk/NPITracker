@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/action_pf"
+
+        android:title="Process Followed"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Location Found -->
+    <item android:id="@+id/action_pnf"
+        android:title="Process Not Followed"
+        app:showAsAction="ifRoom" />
+
+    <!-- Refresh -->
+    <item android:id="@+id/action_allnpi"
+        android:title="All RLIs"
+        app:showAsAction="ifRoom" />
+</menu>

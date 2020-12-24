@@ -1,0 +1,765 @@
+{
+  "status":"ok",
+  "sync_time":"07 Feb 2017 22:10:51",
+  "npilistP2":[
+    {
+      "npi_synopsis":"Summit SRX - Mt Veeder",
+      "plm_lead":"lherman",
+      "systest_lead":"snair",
+      "sw_lead":"mohitjoshi",
+      "npi_id":"1627",
+      "status": "On Track"
+    },
+    {
+      "npi_synopsis":"Rodnik Stage 3",
+      "plm_lead":"rvir",
+      "systest_lead":"kannans",
+      "sw_lead":"hsahu",
+      "npi_id":"1529",
+      "status": "On Track"
+    },
+    {
+      "npi_synopsis":"Lego (API'z JUNOS Daemons) NPI",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1559",
+      "status": "At Risk"
+    },
+    {
+      "npi_synopsis":"ZH",
+      "plm_lead":"mmir",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1481",
+      "status": "no_status"
+    },
+    {
+      "npi_synopsis":"Vale (MX2008 and MX2016) Chassis NPI",
+      "plm_lead":"tjoe",
+      "systest_lead":"rkarthi",
+      "sw_lead":"prk",
+      "npi_id":"1555",
+      "status": "no_status"
+    },
+    {
+      "npi_synopsis":"J-Vision",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1522",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Room 40",
+      "plm_lead":"sulin",
+      "systest_lead":"rpiyush",
+      "sw_lead":"seth",
+      "npi_id":"1578",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"synopsis",
+      "plm_lead":"plm_lead",
+      "systest_lead":"systest_lead",
+      "sw_lead":"sw_lead",
+      "npi_id":"record_number",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"V44 SW NPI - Stage 2",
+      "plm_lead":"ssurapaneni",
+      "systest_lead":"kalleshv",
+      "sw_lead":"sadusuma",
+      "npi_id":"1513",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Dvaita (Node Virtualization)",
+      "plm_lead":"jantich",
+      "systest_lead":"banuk",
+      "sw_lead":"rkhurana",
+      "npi_id":"1592",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Omega NPI",
+      "plm_lead":"smiles",
+      "systest_lead":"vinodp",
+      "sw_lead":"rtandon",
+      "npi_id":"1528",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Chotu NPI - MX20xx \"half-rack\" chassis",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1576",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZT Silicon Program",
+      "plm_lead":"demohanty",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1504",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZX",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1514",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Jarvis - RPD and Junos Network Stack running natively  on Linux",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1601",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Pinnacle",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1519",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit NPI (Femto + Bastion)",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1557",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit SRX - Pine Mountain",
+      "plm_lead":"lherman",
+      "systest_lead":"snair",
+      "sw_lead":"eyang",
+      "npi_id":"1626",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Licensing NPI - Enforcement and Entitlement",
+      "plm_lead":"plachapelle",
+      "systest_lead":"rdevulapalli",
+      "sw_lead":"svitta",
+      "npi_id":"1577",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Blue Sky (Seamless MPLS)",
+      "plm_lead":"sree",
+      "systest_lead":"harishpv",
+      "sw_lead":"manishgupta",
+      "npi_id":"1312",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"AQ (NPI record: 1146)",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1146",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Xellent",
+      "plm_lead":"plalchandani",
+      "systest_lead":"kirankl",
+      "sw_lead":"ssingara",
+      "npi_id":"1598",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Capella (2x200G AC400 Coherent TIC) NPI",
+      "plm_lead":"sroy",
+      "systest_lead":"aramagiri",
+      "sw_lead":"ptjain",
+      "npi_id":"1593",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZF",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1526",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Enterprise Data Center Solution",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1491",
+      "status": "Critical"
+    }
+  ],
+  "npilistP3":[
+    {
+      "npi_synopsis":"V44 SW NPI - Stage 2",
+      "plm_lead":"ssurapaneni",
+      "systest_lead":"kalleshv",
+      "sw_lead":"sadusuma",
+      "npi_id":"1513",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZH",
+      "plm_lead":"mmir",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1481",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Chotu NPI - MX20xx \"half-rack\" chassis",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1576",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZF",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1526",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Enterprise Data Center Solution",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1491",
+      "status": "Critical"
+    }
+  ],
+  "npilistP4":[
+    {
+      "npi_synopsis":"Summit SRX - Mt Veeder",
+      "plm_lead":"lherman",
+      "systest_lead":"snair",
+      "sw_lead":"mohitjoshi",
+      "npi_id":"1627",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Rodnik Stage 3",
+      "plm_lead":"rvir",
+      "systest_lead":"kannans",
+      "sw_lead":"hsahu",
+      "npi_id":"1529",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Lego (API\\'z JUNOS Daemons) NPI",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1559",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Cassis - Stage 1 [NPI # 839]",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"839",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Broadway [NPI # 770]",
+      "plm_lead":"ANJAN",
+      "systest_lead":"",
+      "sw_lead":"asarcar",
+      "npi_id":"770",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZH",
+      "plm_lead":"mmir",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1481",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Vale (MX2008 and MX2016) Chassis NPI",
+      "plm_lead":"tjoe",
+      "systest_lead":"rkarthi",
+      "sw_lead":"prk",
+      "npi_id":"1555",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"J-Vision",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1522",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Room 40",
+      "plm_lead":"sulin",
+      "systest_lead":"rpiyush",
+      "sw_lead":"seth",
+      "npi_id":"1578",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"synopsis",
+      "plm_lead":"plm_lead",
+      "systest_lead":"systest_lead",
+      "sw_lead":"sw_lead",
+      "npi_id":"record_number",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Paradise",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1241",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"V44 SW NPI - Stage 2",
+      "plm_lead":"ssurapaneni",
+      "systest_lead":"kalleshv",
+      "sw_lead":"sadusuma",
+      "npi_id":"1513",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Dvaita (Node Virtualization)",
+      "plm_lead":"jantich",
+      "systest_lead":"banuk",
+      "sw_lead":"rkhurana",
+      "npi_id":"1592",
+      "status": "On Track"
+    },
+    {
+      "npi_synopsis":"Omega NPI",
+      "plm_lead":"smiles",
+      "systest_lead":"vinodp",
+      "sw_lead":"rtandon",
+      "npi_id":"1528",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Chotu NPI - MX20xx \"half-rack\" chassis",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1576",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZT Silicon Program",
+      "plm_lead":"demohanty",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1504",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZX",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1514",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Jarvis - RPD and Junos Network Stack running natively  on Linux",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1601",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Cassis Stage 2 (NPI Record: 1104)",
+      "plm_lead":"HARIDASA",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1104",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Pinnacle",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1519",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit NPI (Femto + Bastion)",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1557",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit SRX - Pine Mountain",
+      "plm_lead":"lherman",
+      "systest_lead":"snair",
+      "sw_lead":"eyang",
+      "npi_id":"1626",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Licensing NPI - Enforcement and Entitlement",
+      "plm_lead":"plachapelle",
+      "systest_lead":"rdevulapalli",
+      "sw_lead":"svitta",
+      "npi_id":"1577",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Blue Sky (Seamless MPLS)",
+      "plm_lead":"sree",
+      "systest_lead":"harishpv",
+      "sw_lead":"manishgupta",
+      "npi_id":"1312",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"AQ (NPI record: 1146)",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1146",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Xellent",
+      "plm_lead":"plalchandani",
+      "systest_lead":"kirankl",
+      "sw_lead":"ssingara",
+      "npi_id":"1598",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Capella (2x200G AC400 Coherent TIC) NPI",
+      "plm_lead":"sroy",
+      "systest_lead":"aramagiri",
+      "sw_lead":"ptjain",
+      "npi_id":"1593",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZF",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1526",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Enterprise Data Center Solution",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1491",
+      "status": "Critical"
+    }
+  ],
+
+  "npilistP1":[
+    {
+      "npi_synopsis":"Dalmore NPI",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1634",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Maximator",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1588",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Celebrator",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1587",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Lego (API\\'z JUNOS Daemons) NPI",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1559",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Cassis - Stage 1 [NPI # 839]",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"839",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Broadway [NPI # 770]",
+      "plm_lead":"ANJAN",
+      "systest_lead":"",
+      "sw_lead":"asarcar",
+      "npi_id":"770",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"TopGun - SnP NPI",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1611",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZH",
+      "plm_lead":"mmir",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1481",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Argus",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1590",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Vale (MX2008 and MX2016) Chassis NPI",
+      "plm_lead":"tjoe",
+      "systest_lead":"rkarthi",
+      "sw_lead":"prk",
+      "npi_id":"1555",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"J-Vision",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1522",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Room 40",
+      "plm_lead":"sulin",
+      "systest_lead":"rpiyush",
+      "sw_lead":"seth",
+      "npi_id":"1578",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"synopsis",
+      "plm_lead":"plm_lead",
+      "systest_lead":"systest_lead",
+      "sw_lead":"sw_lead",
+      "npi_id":"record_number",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Paradise",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1241",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Dvaita (Node Virtualization)",
+      "plm_lead":"jantich",
+      "systest_lead":"banuk",
+      "sw_lead":"rkhurana",
+      "npi_id":"1592",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZT Silicon Program",
+      "plm_lead":"demohanty",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1504",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Jarvis - RPD and Junos Network Stack running natively  on Linux",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1601",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Blue Sky (Seamless MPLS)",
+      "plm_lead":"sree",
+      "systest_lead":"harishpv",
+      "sw_lead":"manishgupta",
+      "npi_id":"1312",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"AQ (NPI record: 1146)",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1146",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Xellent",
+      "plm_lead":"plalchandani",
+      "systest_lead":"kirankl",
+      "sw_lead":"ssingara",
+      "npi_id":"1598",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZF",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1526",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Enterprise Data Center Solution",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1491",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit SRX - Mt Veeder",
+      "plm_lead":"lherman",
+      "systest_lead":"snair",
+      "sw_lead":"mohitjoshi",
+      "npi_id":"1627",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Rodnik Stage 3",
+      "plm_lead":"rvir",
+      "systest_lead":"kannans",
+      "sw_lead":"hsahu",
+      "npi_id":"1529",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"V44 SW NPI - Stage 2",
+      "plm_lead":"ssurapaneni",
+      "systest_lead":"kalleshv",
+      "sw_lead":"sadusuma",
+      "npi_id":"1513",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Chotu NPI - MX20xx \"half-rack\" chassis",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1576",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Omega NPI",
+      "plm_lead":"smiles",
+      "systest_lead":"vinodp",
+      "sw_lead":"rtandon",
+      "npi_id":"1528",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Formula 1 Ferrari ZT-based MPCs for MX960/480/240 and Fabric card for MX960/480/240 to enable new MPCs",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1562",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"ZX",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1514",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Pinnacle",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1519",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Cassis Stage 2 (NPI Record: 1104)",
+      "plm_lead":"HARIDASA",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1104",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit NPI (Femto + Bastion)",
+      "plm_lead":"",
+      "systest_lead":"",
+      "sw_lead":"",
+      "npi_id":"1557",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Licensing NPI - Enforcement and Entitlement",
+      "plm_lead":"plachapelle",
+      "systest_lead":"rdevulapalli",
+      "sw_lead":"svitta",
+      "npi_id":"1577",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Summit SRX - Pine Mountain",
+      "plm_lead":"lherman",
+      "systest_lead":"snair",
+      "sw_lead":"eyang",
+      "npi_id":"1626",
+      "status": "Critical"
+    },
+    {
+      "npi_synopsis":"Capella (2x200G AC400 Coherent TIC) NPI",
+      "plm_lead":"sroy",
+      "systest_lead":"aramagiri",
+      "sw_lead":"ptjain",
+      "npi_id":"1593",
+      "status": "Critical"
+    }
+  ]
+}

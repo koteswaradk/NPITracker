@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rli_rel_main"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:padding="05dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_marginRight="05dp"
+            android:layout_height="match_parent"
+
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/color_layout_l2"
+                android:layout_width="25dp"
+                android:background="@color/amber"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <!--android:background="@color/j_aspiration"-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/l3"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/release_name"
+                    android:layout_marginLeft="02dp"
+                    android:layout_width="wrap_content"
+                    android:text="17.1.R1 "
+                    android:textSize="20sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="05dp"
+                android:orientation="vertical"
+                android:id="@+id/layout_sw_lead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="02dp"
+                    android:textSize="18sp"
+                    android:id="@+id/t_sw_lead"
+                    android:textColor="@color/textcolor"
+                    android:layout_width="wrap_content"
+                    android:text="SW Lead:"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingLeft="02dp"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/t_sw_lead"
+                    android:id="@+id/rel_sw_display"
+                    android:textSize="18sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+
+            </RelativeLayout>
+                <RelativeLayout
+                    android:layout_below="@id/layout_sw_lead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Test Lead:"
+                        android:textSize="18sp"
+                        android:textColor="@color/textcolor"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2" />
+                    <TextView
+                       android:layout_toRightOf="@+id/textView2"
+                        android:paddingLeft="05dp"
+                        android:layout_width="wrap_content"
+
+                        android:id="@+id/rel_hw_display"
+                        android:textSize="18sp"
+                        android:textColor="@color/textcolor"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold" />
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorlightgray" />
+
+    </LinearLayout>
+
+</LinearLayout>

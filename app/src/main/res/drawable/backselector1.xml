@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/backtealwhite" android:state_pressed="true" />
+    <!-- focused -->
+    <item android:drawable="@drawable/backtealwhite" android:state_selected="true"/>
+    <!-- default -->
+    <item android:drawable="@drawable/backwhite"/>
+</selector>

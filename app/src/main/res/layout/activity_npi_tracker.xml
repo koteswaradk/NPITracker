@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_npi_tracker"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.juniper.npitracker.NpiTrackerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"
+        android:padding="05dp"
+       >
+
+        <ImageButton
+
+            android:id="@+id/report_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftarrow"
+            android:layout_marginLeft="05dp"
+            android:layout_gravity="center"
+            android:contentDescription="back"/>
+
+        <LinearLayout
+           android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/button_menu"
+                android:layout_width="wrap_content"
+                android:text="Menu "
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+
+                />
+            <RelativeLayout
+               android:gravity="center"
+
+
+               android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="NPI VIEW"
+                    android:textStyle="normal"
+
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <android.support.v7.widget.SearchView
+                    android:id="@+id/searchview"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.SearchView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+         android:id="@+id/npilistview"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_below="@+id/linearLayout4">
+
+     </ListView>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:background="@color/colorPrimaryDark"
+         android:gravity="center"
+         android:visibility="visible"
+         android:layout_height="30dp"
+         android:id="@+id/linearLayout4"
+         android:layout_below="@+id/linearLayout3"
+         android:layout_alignParentStart="true">
+         <TextView
+             android:id="@+id/releasenumber"
+             android:layout_width="wrap_content"
+             android:textSize="18sp"
+             android:textColor="@android:color/white"
+             android:textStyle="normal"
+             android:layout_height="wrap_content"
+             android:text="(asprashanth)"/>
+
+     </LinearLayout>
+</LinearLayout>

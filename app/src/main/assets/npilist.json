@@ -1,0 +1,348 @@
+{
+  "sync_time":"2017-02-06 09:10:03",
+  "ststus":"ok",
+  "npilistp1": [
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Koteswara",
+      "plm": "Narayan",
+      "testlead": "Shanthee"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Koteswara",
+      "plm": "Narayan",
+      "testlead": "Shanthee"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    },
+    {
+
+      "npiid": "123456",
+      "swlead": "Preetham",
+      "plm": "Avinash",
+      "testlead": "Drishya"
+    }
+  ],
+  "npilistp2": [
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    },
+    {
+
+      "npiid": "123456-2",
+      "swlead": "Preetham-2",
+      "plm": "Avinash-2",
+      "testlead": "Drishya-2"
+    }
+  ],
+  "npilistp3": [
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    },
+    {
+
+      "npiid": "123456-3",
+      "swlead": "Preetham-3",
+      "plm": "Avinash-3",
+      "testlead": "Drishya-3"
+    }
+  ],
+  "npilistp4": [
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    },
+    {
+      "npiid": "123456-4",
+      "swlead": "Preetham-4",
+      "plm": "Avinash-4",
+      "testlead": "Drishya-4"
+    }
+  ]
+}

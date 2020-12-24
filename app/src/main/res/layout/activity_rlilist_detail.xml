@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rlilist_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.juniper.npitracker.rlistatus.RLIListDetailActivity">
+
+    <LinearLayout
+        android:layout_below="@+id/activity_release_list"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="@color/colorlightgray" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/rlilist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:visibility="gone"
+        android:dividerHeight="0dp"
+        android:layout_below="@+id/rlisearchview">
+
+    </ListView>
+    <LinearLayout
+        android:layout_below="@+id/rlisearchview"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/colorlightgray" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_release_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/npiphase_l1"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/release_set_t2"
+                android:text="@string/releaselistdetails"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/release_set_t1"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_below="@+id/npiphase_l1"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout">
+            <TextView
+                android:visibility="gone"
+                android:gravity="center"
+                android:id="@+id/username_display"
+                android:text="(asprashanth)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/bt_back"
+                android:background="@drawable/back_selector"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:gravity="center"
+                android:text="@string/menu"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/npimenu"
+
+                />
+        </LinearLayout>
+        <!--<ImageButton
+            android:id="@+id/bt_back"
+            android:background="@drawable/leftcolorarrow"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="03dp"
+            android:layout_width="30dp"
+            android:layout_height="25dp" />-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/layout_lastsync_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/t_lastsync"
+                android:text="@string/lastsync"
+
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="05dp"
+                android:text=""
+                android:id="@+id/t_lastsync_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/pfnfpinner"
+            android:visibility="visible"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:layout_gravity="center"
+            android:layout_width="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/list"
+            android:dropDownWidth="180dp"
+            android:entries="@array/viewtype"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+       <!-- <TextView
+            android:gravity="center"
+            android:text="@string/rlilistmenu"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/npimenu"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />-->
+    </RelativeLayout>
+
+    <SearchView
+        android:id="@+id/rlisearchview"
+        android:closeIcon="@color/transparent"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentStart="true">
+
+    </SearchView>
+
+    <TextView
+        android:id="@+id/rlilist_layout_no_data_display"
+        android:gravity="center"
+        android:text="No Data Available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

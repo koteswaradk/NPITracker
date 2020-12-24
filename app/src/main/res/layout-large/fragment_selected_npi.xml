@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="com.juniper.npitracker.fragments.SelectedNPIFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/l1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/layout_lastsync_display"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorlightgray" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/seletedFragmentTitle"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/t_title"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/selected_npi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/l2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/layout_lastsync_display"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorlightgray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_selected_list"
+            android:orientation="vertical"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           <!-- <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/tabs"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2">
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>-->
+        <SearchView
+            android:id="@+id/selectednpi_searchview"
+            android:closeIcon="@color/transparent"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:focusable="false"
+            android:layout_height="wrap_content">
+
+        </SearchView>
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/activity_npi_selected_swipe_refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <ListView
+
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:id="@+id/selected_npi_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+            </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_no_data_display"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="@string/nodata"
+            android:layout_width="match_parent"
+            android:layout_height="904dp"
+            android:id="@+id/textView3" />
+
+    </LinearLayout>
+</FrameLayout>

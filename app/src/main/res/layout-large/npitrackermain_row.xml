@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorlightgray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_below="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorlightgray" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_viewnpimain"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:id="@+id/npi_id"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01">
+
+       <!-- <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_width="35dp"
+            android:orientation="vertical"
+            android:id="@+id/color_layout_l2"
+            android:visibility="visible"
+            android:layout_gravity="center_vertical"
+            android:layout_height="35dp"
+            android:layout_marginTop="05dp"
+
+            >
+
+        </ImageView>-->
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="25dp"
+            android:orientation="vertical"
+            android:id="@+id/color_layout_l2"
+            android:visibility="visible"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginTop="05dp"
+            android:layout_marginBottom="05dp"
+
+            >
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="5dp"
+            android:layout_width="1dp"
+            android:visibility="gone"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorlightgray"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/npi_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:text="iurhgirhgitgrhgiuiurhgirhgithgiurhgirhgitgrhgiurhgirhgithgiurhgirhgit"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/textcolor"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:paddingLeft="5dp"
+                android:layout_marginRight="05dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:textSize="18sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_width="wrap_content"
+                    android:text="@string/swlead"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:text="Preeetham"
+                    android:id="@+id/npiswlead_display"
+                    android:textSize="18sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+
+        </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/t_firstpass"
+
+                    android:layout_width="wrap_content"
+                    android:text="@string/plm"
+                    android:textSize="18sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:text="Avinash"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/npiplm_display"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/tl"
+                    android:textSize="18sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_toStartOf="@+id/npi_testlead_display"
+                    android:id="@+id/textView2" />
+                <TextView
+
+                    android:paddingLeft="05dp"
+                    android:layout_width="wrap_content"
+                    android:text="Drishya"
+                    android:id="@+id/npi_testlead_display"
+                    android:textSize="18sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/select"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorlightgray" />
+
+    </LinearLayout>-->
+    <!-- <LinearLayout
+         android:id="@+id/npi_id"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+
+     <LinearLayout
+         android:id="@+id/active_rel_main"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+
+         android:padding="05dp"
+         android:layout_height="wrap_content">
+         &lt;!&ndash;android:background="@color/j_aspiration"&ndash;&gt;
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:id="@+id/l3"
+             android:layout_gravity="center"
+             android:orientation="vertical"
+             android:layout_height="wrap_content">
+             <LinearLayout
+                 android:orientation="horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:weightSum="1">
+                 <LinearLayout
+                     android:layout_width="35dp"
+                     android:orientation="vertical"
+                     android:id="@+id/color_layout_l2"
+                     android:visibility="visible"
+                     android:background="@drawable/log"
+                     android:layout_height="35dp"
+                     android:layout_marginTop="05dp"
+
+                     >
+
+                 </LinearLayout>
+                 <View
+                     android:layout_width="1dp"
+                     android:layout_height="fill_parent"
+                     android:background="@color/colorlightgray"
+                     />
+                 <TextView
+                     android:id="@+id/npi_name"
+                     android:layout_marginLeft="02dp"
+
+                     android:layout_width="288dp"
+                     android:text="hgiurghriguhriugherugrhgiurhgirhgit"
+                     android:textStyle="bold"
+                     android:textSize="14sp"
+                     android:textColor="@color/textcolor"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="7" />
+
+
+             </LinearLayout>
+
+             </LinearLayout>
+
+
+         <RelativeLayout
+             android:visibility="visible"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+             <CheckBox
+                 android:id="@+id/select"
+
+                 android:layout_alignParentRight="true"
+                 android:layout_weight="1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </RelativeLayout>
+         </LinearLayout>-->
+   <!-- <LinearLayout
+
+        android:paddingLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="02dp"
+            android:textSize="14sp"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:text="@string/swlead"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="02dp"
+            android:layout_width="wrap_content"
+            android:text="Preeetham"
+            android:id="@+id/npiswlead_display"
+            android:textSize="14sp"
+            android:textColor="@color/textcolor"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold" />
+        <RelativeLayout
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="02dp"
+                android:layout_width="wrap_content"
+                android:text="Avinash"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/t_firstpass"
+                android:id="@+id/npiplm_display"
+                android:textColor="@color/textcolor"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/t_firstpass"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:text="@string/plm"
+                android:textSize="14sp"
+                android:textColor="@color/textcolor"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/tl"
+                android:textSize="14sp"
+                android:textColor="@color/textcolor"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/npi_testlead_display"
+                android:id="@+id/textView2" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingLeft="05dp"
+                android:layout_marginRight="05dp"
+                android:layout_width="wrap_content"
+                android:text="Drishya"
+                android:id="@+id/npi_testlead_display"
+                android:textSize="14sp"
+                android:textColor="@color/textcolor"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>-->
+<!-- <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorlightgray" />
+
+</LinearLayout>-->
+
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorlightgray" />
+
+</LinearLayout>
+    </LinearLayout>-->
+
+</RelativeLayout>

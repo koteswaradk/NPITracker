@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">JunApp</string>
+
+    <string name="nodata">NO SELCTED NPI</string>
+    <!--font awesome strings-->
+    <string name="font_awsome_check">&#xf00c;</string>
+    <string name="font_awsome_cross">&#xf00d;</string>
+    <string name="icon_heart">&#xf004;</string>
+    <string name="fa_icon_areachart">&#xf1fe;</string>
+    <string name="fa_icon_piechart">&#xf200;</string>
+    <string name="fa_icon_linechart">&#xf201;</string>
+    <string name="fa_icon_reload">&#xf021;</string>
+
+    <!--scripts completed, scripts pending, scripts passed, false failure, pending debugs-->
+
+    <string name="fa_icon_scripts_planned">&#xf0cb;</string>
+    <string name="fa_icon_scripts_executed">&#xf11e;</string>
+    <string name="fa_icon_scripts_pending">&#xf017;</string>
+    <string name="fa_icon_scripts_passed">&#xf087;</string>
+    <string name="fa_icon_false_failure">&#xf088;</string>
+    <string name="fa_icon_pending_debugs">&#xf188;</string>
+    <string name="fa_icon_wifi">&#xf1eb;</string>
+    <string name="fa_icon_pass">&#xf084;</string>
+    <string name="fa_icon_logout">&#xf08b;</string>
+    <string name="fa_icon_flag">&#xf024;</string>
+    <string name="fa_icon_down">&#xf088;</string>
+    <string name="fa_icon_call">&#xf095;</string>
+
+    <string name="sys_test"><b><u>Test Status</u></b></string>
+    <string name="rli_status">RLI Status</string>
+    <string name="pr_summary"><b><u>PR Summary</u></b></string>
+    <string name="risk_details"><b>Risk Details</b></string>
+
+    <string name="alert_text"><b>Functionality Will Be Added Soon</b></string>
+
+    <string name="name_release"><b>Summit: 17.2R</b></string>
+    <string name="rsp_testcase_method"><b>RSP Testcase Method</b></string>
+    <string name="rlis_at_risk">RLIs at Risk</string>
+    <string name="rlis_missing_fs_approval">RLIs missing FS approval</string>
+    <string name="rlis_missing_utp_approval">RLIs missing UTP approval</string>
+    <string name="rlis_missing_ftp_approval">RLIs missing FTP approval</string>
+    <string name="rlis_missing_fcc_approval">RLIs missing FCC approval</string>
+    <string name="rlis_with_rejected_fcc">RLIs with rejected FCC</string>
+
+    <!--  <string name="test_progress">Test Progress</string>
+    <string name="execution">Execution</string>
+    <string name="pass_rate">Pass-rate</string>
+    <string name="scripted">Scripted</string>
+    <string name="test_progress_value">%1$d RLIs</string>-->
+
+    <string name="npi_view">NPI View</string>
+    <string name="active_releases">Active Releases</string>
+    <string name="regression_tests">Regression Tests</string>
+
+    <string name="test_progress">Test Progress (%1$d RLIs)</string>
+    <string name="test_progress_value">%1$d RLIs</string>
+    <string name="execution">Execution (%1$d /%2$d)</string>
+    <string name="pass_rate">Pass-rate (%1$d /%2$d)</string>
+    <string name="scripted">Scripted (%1$d /%2$d)</string>
+    <string name="npi_name">%1$s : %2$s</string>
+
+    <string name="any_severity_heading"><u><b>Any Severity</b></u></string>
+    <string name="ils_cls_heading"><u><b>ILs / CLs</b></u></string>
+
+    <string name="rli_no"><b>RLI #</b></string>
+    <string name="reason"><b>Reason:</b></string>
+    <string name="npi_menu">NPI Menu</string>
+    <string name="splashnpitracker">NPI Tracker</string>
+    <string name="npiview">NPI VIEW</string>
+    <string name="releaselist">RELEASE</string>
+    <string name="releaselistdetails">RLI STATUS</string>
+    <string name="lastsync">Last Sync:</string>
+    <string name="menu">Menu</string>
+    <string name="rlilistmenu">RLI Menu</string>
+    <string name="swlead">SW Lead:</string>
+    <string name="plm">PLM:</string>
+    <string name="tl">TestLead:</string>
+    <string name="saveprofile">Save Profile</string>
+    <string name="rli_number">RLI No:</string>
+    <string name="send_report">SEND REPORT</string>
+    <string name="group">Group</string>
+    <string name="any_severity">Any Severity</string>
+    <string name="blocker">Blocker</string>
+    <string name="L1_L2">L1/L2</string>
+    <string name="L3_L4">L3/L4</string>
+    <string name="open">Open</string>
+    <string name="verified">Ver</string>
+    <string name="closed">Closed</string>
+    <string name="total">Total</string>
+    <string name="last_7_days">Last 7 Days</string>
+    <string name="cfd_issues">CFD ISSUES</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Selected fragment</string>
+    <string name="selected_npi">Selected NPI</string>
+
+    <array name="viewtype">
+        <item>All Npi</item>
+        <item>Process Followed</item>
+        <item>Process Not Followed</item>
+    </array>
+
+</resources>

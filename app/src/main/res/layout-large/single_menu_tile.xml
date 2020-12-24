@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/orange">
+
+            <ImageView
+                android:id="@+id/grid_icon"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_list"
+                android:layout_centerVertical="true"/>
+
+            <!--
+                view 1: remove text view below
+                view 2: keep text view below
+            -->
+            <TextView
+                android:id="@+id/grid_title"
+                android:layout_below="@id/grid_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="NPI Tracker"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+        <!--
+            view 1: uncomment the below lines
+            view 2: comment the lines below
+        -->
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/layout_title"-->
+            <!--android:layout_below="@id/npi_image"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight=".2"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:background="@color/darkOrange">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/grid_title"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="NPI Tracker"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/white"/>-->
+
+        <!--</RelativeLayout>-->
+
+</LinearLayout>

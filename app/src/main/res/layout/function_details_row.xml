@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="1dp"
+        >
+    <LinearLayout
+        android:id="@+id/function_details_main_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="05dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="05dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="PR Number:"
+                    android:textSize="14dp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t_number"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="1238797-1"
+                    android:textSize="14dp"
+
+                    android:paddingLeft="05dp"
+                    android:textColor="@color/textcolor"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t_number_display"
+                    android:layout_marginTop="05dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+
+                    android:layout_marginTop="05dp"
+                    android:layout_marginRight="05dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/t_arrivaldate"
+                        android:text="Arrival Date: "
+
+                        android:textColor="@color/textcolor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingLeft="05dp"
+                        android:id="@+id/t_arrivaldate_display"
+                        android:text="2016-12-13"
+                        android:textColor="@color/textcolor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="05dp"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_parameter">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Problem Level:"
+                        android:textColor="@color/textcolor"
+                        android:id="@+id/t_problem_level"
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="05dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textcolor"
+                        android:text="4-IL2"
+                        android:id="@+id/t_problem_level_display" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/t_prs" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textcolor"
+                        android:text="Hit:"
+                        android:id="@+id/t_hit" />
+
+                    <TextView
+                        android:layout_marginLeft="05dp"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/textcolor"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:id="@+id/t_hit_display" />
+                </LinearLayout>
+                <!-- -->
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="05dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reported In:"
+                    android:textColor="@color/textcolor"
+                    android:id="@+id/t_reported"
+                    />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingLeft="05dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reported IN Reported IN Reported Reported IN Reported IN Reported IN Reported IN Reported IN Reported IN"
+                        android:textColor="@color/textcolor"
+                        android:id="@+id/t_reportedin_display"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="05dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="State:"
+                    android:textColor="@color/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:id="@+id/t_state_display"
+                    android:text="ready for commit"
+                    android:paddingLeft="05dp"
+                    android:textColor="@color/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

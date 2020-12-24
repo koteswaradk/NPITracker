@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backselector1"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:contentDescription="back"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Active Releases Summary"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/home_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/home_selector"
+
+                android:contentDescription="back"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relsummary_linear_text_status_view"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <!--<Button
+            android:id="@+id/newb_id_reload"
+            android:text="@string/fa_icon_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/transparent"
+            />-->
+        <ImageButton
+            android:id="@+id/newb_id_reload"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:background="@drawable/refreshselector"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/activerel_main_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <SearchView
+        android:id="@+id/searchViewReleaseName"
+        android:closeIcon="@color/transparent"
+        android:queryHint="search here"
+        android:textColor="@color/textcolor"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:id="@+id/list_active_rel"
+        android:divider="@android:color/white"
+        android:dividerHeight="2dp"
+        android:layout_height="match_parent">
+
+    </ListView>
+    </LinearLayout>
+</LinearLayout>

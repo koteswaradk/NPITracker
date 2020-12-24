@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cutomalert_image"
+        android:layout_width="wrap_content"
+        android:background="@drawable/log"
+
+        android:layout_height="wrap_content" />
+    <!--style="@style/TransProgressDialog"-->
+    <TextView
+
+        android:id="@+id/customalert_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>

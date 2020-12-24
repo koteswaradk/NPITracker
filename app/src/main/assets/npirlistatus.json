@@ -1,0 +1,205 @@
+{
+  "sync_time": "2016-11-24 09:10:03",
+  "data": [
+    {
+    "npi": "summith",
+    "npiteststatus": [
+
+      {
+        "npi": "Summit",
+        "release": "17.2.R1",
+        "totalprogressrli": "43RL1",
+        "executerange": "0/4779",
+        "passraterange": "0/0",
+        "scriptedrange": "0/0",
+        "executionvalue": "0",
+        "passratevalue": "0",
+        "scriptedvalue": "0",
+        "rliatrisk": "3",
+        "rlimissingapprove": "12",
+        "rlimissingutpapproved": "33",
+        "rlimissingftpapproved": "37",
+        "rlimissingfccapproved": "43",
+        "rliswithrejectedfcc": "0",
+        "riskdetails": [
+          {
+            "npi": "Summit",
+            "id": "1",
+            "rlinumber": "123456",
+            "resean": "waiting for PR12345 fix"
+          },
+          {
+            "npi": "Summit",
+            "id": "1",
+            "rlinumber": "123456",
+            "resean": "waiting for PR12345 fix"
+          },
+          {
+            "npi": "Summit",
+            "id": "1",
+            "rlinumber": "123456",
+            "resean": "waiting for PR12345 fix"
+          },
+          {
+            "npi": "Summit",
+            "id": "1",
+            "rlinumber": "123456",
+            "resean": "waiting for PR12345 fix"
+          },
+          {
+            "npi": "Summit",
+            "id": "1",
+            "rlinumber": "123456",
+            "resean": "waiting for PR12345 fix"
+          },
+          {
+            "npi": "Summit",
+            "id": "1",
+            "rlinumber": "123456",
+            "resean": "waiting for PR12345 fix"
+          }
+        ]
+  }
+
+  ]
+
+},
+    {
+      "npi": "vale",
+      "npiteststatus": [
+
+        {
+          "npi": "vale",
+          "release":"17.2.R1",
+          "totalprogressrli":"43RL1",
+          "executerange":"0/4779",
+          "passraterange":"0/0",
+          "scriptedrange":"0/0",
+          "executionvalue":"0",
+          "passratevalue":"0",
+          "scriptedvalue":"0",
+          "rliatrisk":"3",
+          "rlimissingapprove":"12",
+          "rlimissingutpapproved":"33",
+          "rlimissingftpapproved":"37",
+          "rlimissingfccapproved":"43",
+          "rliswithrejectedfcc":"0",
+          "riskdetails":[
+            {
+              "npi": "vale",
+              "id": "1",
+              "rlinumber": "123456",
+              "resean": "waiting for PR12345 fix"
+
+            },
+            {
+              "npi": "vale",
+              "id": "1",
+              "rlinumber": "123456",
+              "resean": "waiting for PR12345 fix"
+
+            },
+            {
+              "npi": "vale",
+              "id": "1",
+              "rlinumber": "123456",
+              "resean": "waiting for PR12345 fix"
+
+            },
+            {
+              "npi": "vale",
+              "id": "1",
+              "rlinumber": "123456",
+              "resean": "waiting for PR12345 fix"
+
+            },
+            {
+              "npi": "vale",
+              "id": "1",
+              "rlinumber": "123456",
+              "resean": "waiting for PR12345 fix"
+
+            },
+            {
+              "npi": "vale",
+              "id": "1",
+              "rlinumber": "123456",
+              "resean": "waiting for PR12345 fix"
+
+            }
+
+
+          ]
+
+        }
+
+      ]
+
+    }, {
+      "npi": "lego",
+      "release":"17.2.R1",
+      "totalprogressrli":"43RL1",
+      "executerange":"0/4779",
+      "passraterange":"0/0",
+      "scriptedrange":"0/0",
+      "executionvalue":"0",
+      "passratevalue":"0",
+      "scriptedvalue":"0",
+      "rliatrisk":"3",
+      "rlimissingapprove":"12",
+      "rlimissingutpapproved":"33",
+      "rlimissingftpapproved":"37",
+      "rlimissingfccapproved":"43",
+      "rliswithrejectedfcc":"0",
+      "riskdetails":[
+        {
+          "npi": "lego",
+          "id": "1",
+          "rlinumber": "123456",
+          "resean": "waiting for PR12345 fix"
+
+        },
+        {
+          "npi": "lego",
+          "id": "1",
+          "rlinumber": "123456",
+          "resean": "waiting for PR12345 fix"
+
+        },
+        {
+          "npi": "lego",
+          "id": "1",
+          "rlinumber": "123456",
+          "resean": "waiting for PR12345 fix"
+
+        },
+        {
+          "npi": "lego",
+          "id": "1",
+          "rlinumber": "123456",
+          "resean": "waiting for PR12345 fix"
+
+        },
+        {
+          "npi": "lego",
+          "id": "1",
+          "rlinumber": "123456",
+          "resean": "waiting for PR12345 fix"
+
+        },
+        {
+          "npi": "lego",
+          "id": "1",
+          "rlinumber": "123456",
+          "resean": "waiting for PR12345 fix"
+
+        }
+
+
+      ]
+
+    }
+
+
+  ]
+}

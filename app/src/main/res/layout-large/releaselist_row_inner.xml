@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="#EEEEEE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="02dp"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="05dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_marginTop="05dp"
+                        android:layout_marginRight="05dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/t_npi_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="NPI Name"
+                            android:textStyle="bold"
+                            android:paddingBottom="4sp"/>
+
+                        <TextView
+                            android:id="@+id/t_npi_name_display"
+                            android:textSize="18sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Merge-fwd: TDF: IBM/TNF Analytics with LRF - LRF Module and Infrastructure"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                     <View
+                         android:id="@+id/view1"
+                         android:layout_width="match_parent"
+                         android:layout_height="2dp"
+                         android:background="@color/colorlightgray" />
+
+                 </LinearLayout>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#f2f2f2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="05dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="02dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_width="wrap_content"
+                            android:text="Total RLIs"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/t_total_rlis" />
+                        <TextView
+                            android:paddingLeft="02dp"
+                            android:layout_width="wrap_content"
+                            android:text="0"
+                            android:id="@+id/t_total_rlis_display"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal|bold" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@color/colorlightgray"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:text="At Risk"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/t_at_risk" />
+                        <TextView
+                            android:paddingLeft="02dp"
+                            android:layout_width="wrap_content"
+                            android:text="0"
+                            android:textSize="18sp"
+                            android:id="@+id/t_at_risk_display"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal|bold" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@color/colorlightgray"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_marginRight="05dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Followed"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="02dp"
+                            android:id="@+id/t_process_followed" />
+
+                        <TextView
+                            android:paddingLeft="05dp"
+                            android:layout_width="wrap_content"
+                            android:text="0"
+                            android:id="@+id/t_process_followed_diaplay"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal|bold" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@color/colorlightgray"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_marginRight="05dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Not Followed"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="02dp"
+                            android:id="@+id/t_process_followed_not" />
+
+                        <TextView
+                            android:paddingLeft="05dp"
+                            android:layout_width="wrap_content"
+                            android:text="0"
+                            android:id="@+id/t_process_followed_not_diaplay"
+                            android:textSize="18sp"
+                            android:textColor="@color/textcolor"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal|bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

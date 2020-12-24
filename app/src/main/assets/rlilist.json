@@ -1,0 +1,990 @@
+{
+  "status": "ok",
+  "sync_time": "14 Feb 2017 23:10:47",
+  "data": [
+    {
+      "rli_id": "27769",
+      "synopsis": "Merge-fwd: TDF: IBM/TNF Analytics with LRF - LRF Module and Infrastructure",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30445",
+      "synopsis": "ETH OAM: - ISSU for CFM - Merge RLI",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23415",
+      "synopsis": "PTX: gladiator: NGEN MVPN support",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "26846",
+      "synopsis": "Fortius, Kotinos, MISHA : MEF MIB (ACX/kotinos/Misha) (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24653",
+      "synopsis": "DT-BNG: Chinook::EVPN::EVPN A/A & A/S Multi-homing in MSAN Scenario (ESI per VLAN)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "26924",
+      "synopsis": "CGNAT - 464XLAT ALG traffic Support For MX",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30673",
+      "synopsis": "Services merge forward: Time of Day Procedures Requirements (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29518",
+      "synopsis": "MISHA: Port Mirroring",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28057",
+      "synopsis": "DNS MINING FOR URL/APP-ID BASED STEERING",
+      "process_followed": "no",
+      "tests_executed_percentage": "77%",
+      "tests_passed_percentage": "38%",
+      "tests_script_percentage": "61%"
+    },
+    {
+      "rli_id": "30670",
+      "synopsis": "Services merge forward: IFL-based subscribers (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31446",
+      "synopsis": "Misha-Merge: PWCC (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "21507",
+      "synopsis": "MISHA, Fortius, Kotinos ACX - BPDU, Loop, and Root Protection (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24864",
+      "synopsis": "Infrastructure: Shared memory Session db for dynamic profiles [BBE ON/OFF]",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "32364",
+      "synopsis": "Chinook::Mac plus ip for Type 2 route (Mod PR-1121033)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28616",
+      "synopsis": "Stout: DDos flow detection and suppression support for Host Path - protocol (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30638",
+      "synopsis": "CG-NAT Enhancements (Systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24943",
+      "synopsis": "Misha-Merge: Mesh Group Support - VPLS PH-2 [Mesh Group, OAM enhancements, etc] (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28331",
+      "synopsis": "Timing+Sync: Phy Timestamping for timing support on MX104",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31236",
+      "synopsis": "vMS-MPC: Porting Service PIC Infrastructure Control Plane and Plugins to vFP",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30436",
+      "synopsis": "QFX10K: Support MPLS over UDP tunnels",
+      "process_followed": "no",
+      "tests_executed_percentage": "0%",
+      "tests_passed_percentage": "0%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31109",
+      "synopsis": "MX86: DPDK2.2.0 QoS performance enhancements",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30061",
+      "synopsis": "Summit SRX3RU HW:  2xEA 320G IMIX Firewall (Mt Veeder)",
+      "process_followed": "no",
+      "tests_executed_percentage": "",
+      "tests_passed_percentage": "",
+      "tests_script_percentage": ""
+    },
+    {
+      "rli_id": "24796",
+      "synopsis": "16.1 Occam: CLI/SNMP support to monitor mutlicore CPU",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "32638",
+      "synopsis": "Lego: Common API framework and Junos API support on QFX series with external API exposed by Junos VM",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27729",
+      "synopsis": "Lego: Cosd: Convert libcos APIs to public APIs",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27500",
+      "synopsis": "Gladiator: Sw support for 10x100 QSFP28 PIC on PTX-gladiator FPC3",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31540",
+      "synopsis": "Lego: RPD programmability: Provide BGP notification APIs",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31188",
+      "synopsis": "BGP add path multipath support - port of 31187",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31434",
+      "synopsis": "Timing + Sync: MX104 Timing MIB with Get/Walk support",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29632",
+      "synopsis": "UI: Create MGD as a common component (dev-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "N/A",
+      "tests_passed_percentage": "N/A",
+      "tests_script_percentage": "N/A"
+    },
+    {
+      "rli_id": "31447",
+      "synopsis": "Misha-Merge: Auto bandwidth (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "32086",
+      "synopsis": "Merge-Forward: Service Redundancy Daemon",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "25985",
+      "synopsis": "Chinook: Inter DC connectivity over pure L3 network with EVPN Route type 5",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31849",
+      "synopsis": "Elit/Ultimat: Management VRF Support (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "75%",
+      "tests_passed_percentage": "75%",
+      "tests_script_percentage": "0%"
+    },
+    {
+      "rli_id": "27996",
+      "synopsis": "CEC: B-54: LLDP-MED with VOIP integration",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24735",
+      "synopsis": "IPsec: Common vpn: DPD enhancements",
+      "process_followed": "yes",
+      "tests_executed_percentage": "76%",
+      "tests_passed_percentage": "76%",
+      "tests_script_percentage": "64%"
+    },
+    {
+      "rli_id": "25223",
+      "synopsis": "MX Inline GRE defragmentation support (cross-functional kernel/pfe) (RipTide Parity) and (Aloha Parity) - Systest only",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23130",
+      "synopsis": "BlueSky: PWT: Services side features: Port mirroring support on PS (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30842",
+      "synopsis": "vBNG Flow Caching for tunnels",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27696",
+      "synopsis": "Lego: DCD Library - Extend support for IFL, IFL, IFF attributes and add new APIs",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31555",
+      "synopsis": "DT-BNG: Support for mplsL3VpnIfConfTable in MPLS-L3VPN-STD-MIB (RFC 4382)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27770",
+      "synopsis": "Merge-fwd: TDF: IBM/TNF Analytics with LRF - Time based triggers",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "18306",
+      "synopsis": "BlueSky: Seamless MPLS: Virtual Chassis support for subscriber management over MPLS PWs (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29264",
+      "synopsis": "MX86: Redhat Openstack Support for vMX",
+      "process_followed": "no",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "95%",
+      "tests_script_percentage": "N/A"
+    },
+    {
+      "rli_id": "29024",
+      "synopsis": "ETH OAM: CFM Chassis-ID Parameter inclusion in CCM message including CFM flapping trap",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29246",
+      "synopsis": "Summit MX: L2 Protocols parity features (systest-only)",
+      "process_followed": "no",
+      "tests_executed_percentage": "4%",
+      "tests_passed_percentage": "4%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31137",
+      "synopsis": "BGP white box testing infrastructure (dev-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "N/A",
+      "tests_passed_percentage": "N/A",
+      "tests_script_percentage": "N/A"
+    },
+    {
+      "rli_id": "29360",
+      "synopsis": "BGP add path support for community for updates - Port of 28847",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "25934",
+      "synopsis": "Kotinos: Stateful Firewall on Service processor",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "22705",
+      "synopsis": "Stout: Host Path and DDos Support per subscriber (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28756",
+      "synopsis": "PTX:  Interface shaping on Paradise FPCs/platforms (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29416",
+      "synopsis": "Container Interface Support on Cortona MIC",
+      "process_followed": "no",
+      "tests_executed_percentage": "62%",
+      "tests_passed_percentage": "29%",
+      "tests_script_percentage": "60%"
+    },
+    {
+      "rli_id": "29501",
+      "synopsis": "Misha-Merge: R-LFA (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29135",
+      "synopsis": "Timing+Sync: G.8275.1 hybrid with PTPOE on 10GE/100GE interfaces on MPC5E",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "32139",
+      "synopsis": "Support MPLSoUDP tunnels in Junos (Scale : 256K)(MX) (RPD/PFE/Kernel) (Cust: Oracle)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28892",
+      "synopsis": "MX QoS: force-premium support for family vpls, ccc and bridge",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "22381",
+      "synopsis": "Akira: EXT-PCK:CGN: DS-lite on MS-MPC/MIC (SFW/NAPT support)",
+      "process_followed": "no",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "55%",
+      "tests_script_percentage": "36%"
+    },
+    {
+      "rli_id": "31436",
+      "synopsis": "Stout: FP: ETH OAM: Multiclass ETH-LM and ETH-DM (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31172",
+      "synopsis": "PTX: 1K L3VPNs qualification (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30728",
+      "synopsis": "CGN: NAT64 support for IPSEC ALG",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30639",
+      "synopsis": "Stateful Sync Enhancements (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30331",
+      "synopsis": "India Router 2  platform SW support",
+      "process_followed": "no",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "98%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "22306",
+      "synopsis": "BBE-FV: Adjust TCP MSS in SYN packets for BBE L2TP-LNS",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31217",
+      "synopsis": "jsscd enhanced feature support in Tomcat",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27538",
+      "synopsis": "DT-BNG: DHCP relay - Asymmetric lease support (low scale)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "26706",
+      "synopsis": "V44:MX Per-vlan-queueing for the extended ports on V44",
+      "process_followed": "yes",
+      "tests_executed_percentage": "98%",
+      "tests_passed_percentage": "91%",
+      "tests_script_percentage": "83%"
+    },
+    {
+      "rli_id": "29415",
+      "synopsis": "Support PISA MIC PPP-TCC Interop with extended-vlan-tcc in MX. (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "16918",
+      "synopsis": "DT-BNG: Kernel: fxp0 interface in non-default VRF (rpd/kernel)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "20328",
+      "synopsis": "Tomcat: Interface-set traffic stat information available in SNMP MIB",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28431",
+      "synopsis": "Kotinos: ALG Support for NAT",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27244",
+      "synopsis": "Chinook:: EVPN - if all EVPN PEs loose connectivity, bring down LACP on CE to EVPN PE link",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24103",
+      "synopsis": "ETH OAM: Ethernet-OAM scaling:  8K MIP scale for EVPL & VPLS per chassis",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28032",
+      "synopsis": "Lego: Cosd: Infra changes to support Lego applications",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31435",
+      "synopsis": "Stout: FP: ETH OAM: Y.1731 DM and SLM for AE interface (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31280",
+      "synopsis": "PTX: Configurable Firewall Filter DSCP/traffic-class PFM Promotion",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "16160",
+      "synopsis": "ACI+ARI based trigger for ACI VLANs",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29498",
+      "synopsis": "Fortius, Misha, Kotinos PCEP support for Northstar integration",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "N/A"
+    },
+    {
+      "rli_id": "30672",
+      "synopsis": "Services merge forward: HTTP header enrichment for DT (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23313",
+      "synopsis": "ETH OAM: SLM/DM Support on IP Interface, including LAG and Specific LAG Members",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29305",
+      "synopsis": "MPLS over Dynamic GRE, Tunnel Scale Improvement (256K Dynamic Tunnels) (Cust: Oracle)(systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31641",
+      "synopsis": "India Router 2: MX-TSRS80: SnP Qualification (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "94%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23335",
+      "synopsis": "DT-BNG: Phase 2b: MAC-Limit function to work properly (merge from X50) (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "19436",
+      "synopsis": "ISIS prioritized route installation in FIB (rpd/ldp)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24884",
+      "synopsis": "BlueSky (Seamless MPLS): LDP Pseudowire auto-sensing (cross-functional rpd/essmd/authd)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31630",
+      "synopsis": "Multicast/MVPN : Withdraw Type-7 routes when multicast stream for a group goes beyond threshold",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31543",
+      "synopsis": "YANG: Qualify YANG support for PTX platforms (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "26094",
+      "synopsis": "J-Vision: MPC7E/8E/9E High Scale Queue Monitor",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27771",
+      "synopsis": "Merge-fwd: TDF: IBM/TNF Analytics with LRF - TCP-Tracker changes for TCP related attributes",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30391",
+      "synopsis": "India Router 2 Platform Software -Feature Parity Qualification (Systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "32143",
+      "synopsis": "India Router 2:JDE2 Diags support for MX-TSR80(Systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29258",
+      "synopsis": "Chotu - PFT support in 17.2R1 (systest-only)",
+      "process_followed": "no",
+      "tests_executed_percentage": "0%",
+      "tests_passed_percentage": "0%",
+      "tests_script_percentage": "0%"
+    },
+    {
+      "rli_id": "27955",
+      "synopsis": "Overload controls for Service PIC",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31450",
+      "synopsis": "Misha-Merge: MISHA and ACX - AE Enhancements (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29502",
+      "synopsis": "Misha-Merge: Fortius, Misha BGP PIC edge support (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30720",
+      "synopsis": "Akira: EXT-PCK: CGN - Support for H323 NAT44",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29186",
+      "synopsis": "MX86: DPDK 2.x support on vMX.",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "21395",
+      "synopsis": "BlueSky: Enable Seamless MPLS for Business Services : L2 services support",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29030",
+      "synopsis": "QFX5100:Flexible VLAN tagging with VxLAN Tunnels",
+      "process_followed": "yes",
+      "tests_executed_percentage": "64%",
+      "tests_passed_percentage": "64%",
+      "tests_script_percentage": "11%"
+    },
+    {
+      "rli_id": "30671",
+      "synopsis": "Services merge forward: Usage Monitoring Requirements (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31241",
+      "synopsis": "vMS-MPC: MS interface creation and management",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27739",
+      "synopsis": "Unicast RPF check for Tunneled traffic (Cust: Oracle)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31643",
+      "synopsis": "MX86: Openstack Support for vMX Phase 2",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "N/A"
+    },
+    {
+      "rli_id": "29245",
+      "synopsis": "Summit MX: Product Deployment Qualification (PDT) (systest-only)",
+      "process_followed": "no",
+      "tests_executed_percentage": "0%",
+      "tests_passed_percentage": "0%",
+      "tests_script_percentage": "N/A"
+    },
+    {
+      "rli_id": "27212",
+      "synopsis": "PTX:Gladiator-Shochu: BGP flow spec support",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30502",
+      "synopsis": "(Merge-Fwd) MX implementation of DOS/DDOS Screens",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30742",
+      "synopsis": "Timing + Sync: 1588 and SyncE hybrid timing support for PTPOE Stateful and Stateless for MX104",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31242",
+      "synopsis": "PFE support for vMS-MPC",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30674",
+      "synopsis": "Services merge forward: LRF - logging and reporting framework (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "27434",
+      "synopsis": "Bluesky: Extension of PW Redundancy Condition Logic to PS Interface",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31774",
+      "synopsis": "India Router 2 - Rebranding of MX104 to MX-TSR80 - HW RLI",
+      "process_followed": "no",
+      "tests_executed_percentage": "",
+      "tests_passed_percentage": "",
+      "tests_script_percentage": ""
+    },
+    {
+      "rli_id": "27382",
+      "synopsis": "Lego: RPD Programmabilty: APIs for routing service",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23781",
+      "synopsis": "Fortius: PTP support for IRB - Merge to 17.1 from 15.1X54-D35 (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "30755",
+      "synopsis": "CGN MS-MPC CoS support - feature parity with MS-DPC (systest only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23425",
+      "synopsis": "PTX: gladiator:  Global table Multicast (GTM) using LSI interface",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "31156",
+      "synopsis": "Misha-Merge: MISHA, Fortuis, Kotinos MERGE - DHCP Option 82 on VLAN (DHCP Snooping) (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "28930",
+      "synopsis": "Lego: Firewall - Support Ethernet-Switching Family",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "21522",
+      "synopsis": "Zeppelin::EVPN Proxy ARP support and ARP suppression on MX/EX",
+      "process_followed": "yes",
+      "tests_executed_percentage": "72%",
+      "tests_passed_percentage": "72%",
+      "tests_script_percentage": "54%"
+    },
+    {
+      "rli_id": "29312",
+      "synopsis": "DT BNG: SHMLOG improvements to support filter based debugging (Phase II: COS, DFW)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "32288",
+      "synopsis": "Pisa MIC: Frame Relay Inverse-arp support",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "24238",
+      "synopsis": "Windsurf/Aloha: ISSU support on MX (systest only)(BBE only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "23941",
+      "synopsis": "Fortius, Kotinos, MISHA - GRE over IP",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "26302",
+      "synopsis": "Order aware abstract groups for MPLS LSPs",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    },
+    {
+      "rli_id": "29485",
+      "synopsis": "MX86: VXLAN gateway support for static config and contrail (systest-only)",
+      "process_followed": "yes",
+      "tests_executed_percentage": "100%",
+      "tests_passed_percentage": "100%",
+      "tests_script_percentage": "100%"
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/report_back_button"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backselector1"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:contentDescription="back"/>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Test Report"
+            android:layout_marginLeft="5dp"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/report_home_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/home"
+                android:visibility="gone"
+                android:contentDescription="home"
+                android:layout_marginBottom="05dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="05dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relreport_reload"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/b_id_taptapme"
+            android:text="@string/fa_icon_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+           android:background="@drawable/refreshselector"
+            />
+        <!-- <TextView
+             android:text="@string/nodata"
+             android:id="@+id/text_status_view"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relport_main_layout"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/releasenumber"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"
+            android:text="17.1.R1"/>
+
+    </LinearLayout>
+
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:scrollbarSize="1dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="01dp"
+            android:layout_width="match_parent"
+            >
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="01dp"
+                android:layout_width="match_parent"
+                android:id="@+id/linear1"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+                android:layout_height="45dp">
+
+            </LinearLayout>
+        </HorizontalScrollView >
+    <LinearLayout
+        android:id="@+id/relsummary_linear_view_id"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:textColor="@android:color/white"
+        android:layout_height="60dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_percenatge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="05dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:text="90%"
+                android:textColor="@color/green"
+
+                android:textAllCaps="false" />
+            <TextView
+                android:id="@+id/text_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="02dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/text_percenatge"
+                android:textSize="22sp"
+                android:text="First Pass"
+                android:textColor="@color/green"
+
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/like_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/fa_icon_scripts_passed"
+                android:textSize="40dp"
+                android:background="#00ffffff"
+                android:textColor="@color/green"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/text_congratulation"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dp"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="@color/green"
+                android:layout_height="wrap_content"
+                android:text="Congratulations"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barchartlive"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_card_layout"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/b_total_scripts_planned"
+                    style="@style/style_testreport_image"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_scripts_planned"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="05dp"
+                    android:layout_marginLeft="05dp" />
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="Total Scripts Planned"
+                    android:id="@+id/text_total_scripts_planned"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    style="@style/style_text_pending_debug_display"
+
+                    android:id="@+id/text_total_scripts_planned_display" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                style="@style/style_card_layout">
+
+                <Button
+                    android:id="@+id/b_total_scripts_executed"
+                    style="@style/style_testreport_image"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_scripts_executed"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="Total Scripts Executed"
+                    android:id="@+id/text_total_scripts_executed"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug_display"
+
+
+                    android:id="@+id/text_total_scripts_executed_display" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                style="@style/style_card_layout">
+
+                <Button
+                    android:id="@+id/b_scripts_pending"
+                    style="@style/style_testreport_image"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_scripts_pending"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="Initail Pending Debug"
+                    android:id="@+id/text_total_scripts_pending"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug_display"
+
+                    android:id="@+id/total_scripts_pending_display" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                style="@style/style_card_layout">
+
+                <Button
+                    android:id="@+id/b_scripts_passed"
+                    style="@style/style_testreport_image"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_scripts_passed"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="Total Scripts Passed"
+                    android:id="@+id/total_scripts_passed"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+
+                    style="@style/style_text_pending_debug_display"
+
+                    android:id="@+id/total_scripts_passed_display" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                style="@style/style_card_layout">
+                <Button
+                    android:id="@+id/b_false_failute"
+                    style="@style/style_testreport_image"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_false_failure"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="Total Scripts Failed"
+                    android:id="@+id/text_false_failute"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug_display"
+
+
+                    android:id="@+id/text_false_failute_display" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                style="@style/style_card_layout"
+                android:id="@+id/linear_text_pending_debug_display">
+
+                <Button
+                    android:id="@+id/b_pendingdebug"
+                    style="@style/style_testreport_image"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_pending_debugs"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="Respin Pending Debug"
+
+                    android:id="@+id/text_pending_debug"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+
+                    style="@style/style_text_pending_debug_display"
+
+
+                    android:id="@+id/text_pending_debug_display" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/style_card_layout"
+                android:id="@+id/linear_text_queued_debug_display"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/b_firstpass"
+                    style="@style/style_testreport_image"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="#00ffffff"
+                    android:text="@string/fa_icon_flag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp" />
+
+                <TextView
+                    style="@style/style_text_pending_debug"
+                    android:text="First Pass"
+
+                    android:id="@+id/text_queued_debug"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+
+                    style="@style/style_text_pending_debug_display"
+
+
+                    android:id="@+id/text_queued_debug_display" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorlightgray" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <com.github.mikephil.charting.charts.BarChart
+             android:id="@+id/barchartlive"
+             android:layout_width="match_parent"
+             android:layout_height="250dp" />
+     </LinearLayout>
+
+         <LinearLayout
+             style="@style/style_card_layout"
+             >
+
+             <Button
+                 android:id="@+id/b_total_scripts_planned"
+                 style="@style/style_testreport_image"
+                 android:textSize="25sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_scripts_planned"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginTop="05dp"
+                 android:layout_marginLeft="05dp" />
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="Total Scripts Planned"
+                 android:id="@+id/text_total_scripts_planned"
+                 android:layout_marginLeft="10dp" />
+             <TextView
+                 style="@style/style_text_pending_debug_display"
+
+                 android:id="@+id/text_total_scripts_planned_display" />
+
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+             android:id="@+id/view"
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>
+
+
+
+         <LinearLayout
+
+             style="@style/style_card_layout">
+
+             <Button
+                 android:id="@+id/b_total_scripts_executed"
+                 style="@style/style_testreport_image"
+                 android:textSize="25sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_scripts_executed"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="05dp"
+                 android:layout_marginTop="05dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="Total Scripts Executed"
+                 android:id="@+id/text_total_scripts_executed"
+                 android:layout_marginLeft="10dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug_display"
+
+
+                 android:id="@+id/text_total_scripts_executed_display" />
+
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>
+
+
+
+         <LinearLayout
+
+             style="@style/style_card_layout">
+
+             <Button
+                 android:id="@+id/b_scripts_pending"
+                 style="@style/style_testreport_image"
+                 android:textSize="30sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_scripts_pending"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="05dp"
+                 android:layout_marginTop="05dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="Total Scripts Pending"
+                 android:id="@+id/text_total_scripts_pending"
+                 android:layout_marginLeft="10dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug_display"
+
+                 android:id="@+id/total_scripts_pending_display" />
+
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>
+
+
+
+         <LinearLayout
+
+             style="@style/style_card_layout">
+
+             <Button
+                 android:id="@+id/b_scripts_passed"
+                 style="@style/style_testreport_image"
+                 android:textSize="30sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_scripts_passed"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="05dp"
+                 android:layout_marginTop="05dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="Total Scripts Passed"
+                 android:id="@+id/total_scripts_passed"
+                 android:layout_marginLeft="10dp" />
+
+             <TextView
+
+                 style="@style/style_text_pending_debug_display"
+
+                 android:id="@+id/total_scripts_passed_display" />
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>
+
+
+
+         <LinearLayout
+
+             style="@style/style_card_layout">
+             <Button
+                 android:id="@+id/b_false_failute"
+                 style="@style/style_testreport_image"
+                 android:textSize="30sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_false_failure"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="05dp"
+                 android:layout_marginTop="05dp" />
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="False Failure"
+                 android:id="@+id/text_false_failute"
+                 android:layout_marginLeft="10dp" />
+             <TextView
+                 style="@style/style_text_pending_debug_display"
+
+
+                 android:id="@+id/text_false_failute_display" />
+
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>
+
+
+
+
+         <LinearLayout
+
+             style="@style/style_card_layout"
+             android:id="@+id/linear_text_pending_debug_display">
+
+             <Button
+                 android:id="@+id/b_pendingdebug"
+                 style="@style/style_testreport_image"
+                 android:textSize="30sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_pending_debugs"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="05dp"
+                 android:layout_marginTop="05dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="Pending Debugs"
+
+                 android:id="@+id/text_pending_debug"
+                 android:layout_marginLeft="10dp" />
+
+             <TextView
+
+                 style="@style/style_text_pending_debug_display"
+
+
+                 android:id="@+id/text_pending_debug_display" />
+
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>
+
+
+         <LinearLayout
+
+             style="@style/style_card_layout"
+             android:id="@+id/linear_text_queued_debug_display">
+
+             <Button
+                 android:id="@+id/b_firstpass"
+                 style="@style/style_testreport_image"
+                 android:textSize="30sp"
+                 android:textColor="@color/colorPrimary"
+                 android:background="#00ffffff"
+                 android:text="@string/fa_icon_flag"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="05dp"
+                 android:layout_marginTop="05dp" />
+
+             <TextView
+                 style="@style/style_text_pending_debug"
+                 android:text="First Pass"
+
+                 android:id="@+id/text_queued_debug"
+                 android:layout_marginLeft="10dp" />
+
+             <TextView
+
+                 style="@style/style_text_pending_debug_display"
+
+
+                 android:id="@+id/text_queued_debug_display" />
+
+
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <View
+
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:background="@color/colorlightgray" />
+
+     </LinearLayout>-->
+
+
+
+</LinearLayout>

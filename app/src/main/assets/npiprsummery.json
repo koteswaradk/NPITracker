@@ -1,0 +1,530 @@
+{
+  "sync_time": "2016-11-24 09:10:03",
+  "data": [
+    {
+      "npiid": "summith",
+          "prsummary":[
+            {
+              "group": "platform sw",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "PEE SW",
+              "open": "0",
+              "ver": "1",
+              "closed": "3",
+              "total": "4",
+              "last7days": "0"
+
+            },
+            {
+              "group": "RPD",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "KERNAL UI",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "JVIS AGENDA",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "SPACE",
+              "open": "0",
+              "ver": "0",
+              "closed": "9",
+              "total": "9",
+              "last7days": "0"
+
+            },
+            {
+              "group": "HARDWARE",
+              "open": "35",
+              "ver": "5",
+              "closed": "39",
+              "total": "77",
+              "last7days": "6"
+
+            },{
+              "group": "ASIC",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },{
+              "group": "OTHERS",
+              "open": "422",
+              "ver": "85",
+              "closed": "451",
+              "total": "958",
+              "last7days": "119"
+
+            }
+          ],
+          "prsummaryblocker":[
+            {
+              "blockergroup": "platform sw",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "PEE SW",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "RPD",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "KERNAL UI",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "JVIS AGENDA",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "SPACE",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "HARDWARE",
+              "blockeropen": "2",
+              "blockerver": "0",
+              "l1l2open": "9",
+              "l1l2ver": "0",
+              "l3open": "24",
+              "l4ver": "5"
+
+            },{
+              "group": "ASIC",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },{
+              "group": "OTHERS",
+              "blockeropen": "45",
+              "blockerver": "14",
+              "l1l2open": "222",
+              "l1l2ver": "48",
+              "l3open": "48",
+              "l4ver": "48"
+
+            }
+
+
+      ]
+    },{
+      "npiid": "vole",
+          "prsummary":[
+            {
+              "group": "platform sw",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "PEE SW",
+              "open": "0",
+              "ver": "1",
+              "closed": "3",
+              "total": "4",
+              "last7days": "0"
+
+            },
+            {
+              "group": "RPD",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "KERNAL UI",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "JVIS AGENDA",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "SPACE",
+              "open": "0",
+              "ver": "0",
+              "closed": "9",
+              "total": "9",
+              "last7days": "0"
+
+            },
+            {
+              "group": "HARDWARE",
+              "open": "35",
+              "ver": "5",
+              "closed": "39",
+              "total": "77",
+              "last7days": "6"
+
+            },{
+              "group": "ASIC",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },{
+              "group": "OTHERS",
+              "open": "422",
+              "ver": "85",
+              "closed": "451",
+              "total": "958",
+              "last7days": "119"
+
+            }
+          ],
+          "prsummaryblocker":[
+            {
+              "blockergroup": "platform sw",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "PEE SW",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "RPD",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "KERNAL UI",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "JVIS AGENDA",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "SPACE",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "HARDWARE",
+              "blockeropen": "2",
+              "blockerver": "0",
+              "l1l2open": "9",
+              "l1l2ver": "0",
+              "l3open": "24",
+              "l4ver": "5"
+
+            },{
+              "group": "ASIC",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },{
+              "group": "OTHERS",
+              "blockeropen": "45",
+              "blockerver": "14",
+              "l1l2open": "222",
+              "l1l2ver": "48",
+              "l3open": "48",
+              "l4ver": "48"
+
+            }
+
+
+      ]
+    },{
+      "npiid": "lego",
+          "prsummary":[
+            {
+              "group": "platform sw",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "PEE SW",
+              "open": "0",
+              "ver": "1",
+              "closed": "3",
+              "total": "4",
+              "last7days": "0"
+
+            },
+            {
+              "group": "RPD",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "KERNAL UI",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "JVIS AGENDA",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },
+            {
+              "group": "SPACE",
+              "open": "0",
+              "ver": "0",
+              "closed": "9",
+              "total": "9",
+              "last7days": "0"
+
+            },
+            {
+              "group": "HARDWARE",
+              "open": "35",
+              "ver": "5",
+              "closed": "39",
+              "total": "77",
+              "last7days": "6"
+
+            },{
+              "group": "ASIC",
+              "open": "0",
+              "ver": "0",
+              "closed": "0",
+              "total": "0",
+              "last7days": "0"
+
+            },{
+              "group": "OTHERS",
+              "open": "422",
+              "ver": "85",
+              "closed": "451",
+              "total": "958",
+              "last7days": "119"
+
+            }
+          ],
+          "prsummaryblocker":[
+            {
+              "blockergroup": "platform sw",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "PEE SW",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "RPD",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "KERNAL UI",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "JVIS AGENDA",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "SPACE",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },
+            {
+              "group": "HARDWARE",
+              "blockeropen": "2",
+              "blockerver": "0",
+              "l1l2open": "9",
+              "l1l2ver": "0",
+              "l3open": "24",
+              "l4ver": "5"
+
+            },{
+              "group": "ASIC",
+              "blockeropen": "0",
+              "blockerver": "0",
+              "l1l2open": "0",
+              "l1l2ver": "0",
+              "l3open": "0",
+              "l4ver": "0"
+
+            },{
+              "group": "OTHERS",
+              "blockeropen": "45",
+              "blockerver": "14",
+              "l1l2open": "222",
+              "l1l2ver": "48",
+              "l3open": "48",
+              "l4ver": "48"
+
+            }
+      ]
+    }
+
+  ]
+}
